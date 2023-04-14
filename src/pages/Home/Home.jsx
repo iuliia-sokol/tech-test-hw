@@ -30,7 +30,7 @@ const Homepage = () => {
         <Container>
         {isLoading && <Loader/>}
         <UsersList>
-        {users&& users.map(({id, user, avatar,followers,tweets, followed}) => <CardUI id={id} tweets={tweets.length} followers={followers.length} followed={followed} user={user} avatar={avatar} />)}
+        {users&& users.map(({id, user, avatar,followers,tweets, followed}) => <CardUI key={id} id={id} tweets={tweets} followers={followers} followed={followed} user={user} avatar={avatar} />)}
         </UsersList>
         </Container>
     </main>)
