@@ -10,6 +10,7 @@ export const ButtonMain = styled.button`
   height: 50px;
  
   border: none;
+  border-radius: ${p => p.theme.radii.btn};
   background-color: ${p => p.selected? p.theme.colors.accentGreen : p.theme.colors.mainLight };
   transition: ${p => p.theme.transitions.main};
 

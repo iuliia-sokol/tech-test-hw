@@ -15,11 +15,11 @@ const SharedLayout = () => {
           <Outlet />
         </Suspense>
         <ScrollToTop
-          showUnder={500}
+          showUnder={200}
           style={{
             position: 'fixed',
             bottom: 20,
-            right: 'auto',
+            left: 'auto',
             cursor: 'pointer',
             transitionDuration: '0.2s',
             transitionTimingFunction: 'linear',

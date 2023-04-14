@@ -1,18 +1,36 @@
 import { ButtonUI } from "components/Button/Button";
-import { CardBox } from "./Card.styled";
+import { Avatar, AvatarCircle, AvatarLine, AvatarWrapper, CardBox, LogoWrapper, TextData, TextWrapper, TopImage } from "./Card.styled";
 import { useState } from "react";
 
-export const CardUI = ({ text }) => {
+import logo from '../../images/logo-min.png';
+import top from '../../images/top-min.png';
+import ellipse from '../../images/ellipse-min.png';
+import line from '../../images/line-min.png';
 
-    const [selection, setSelection] = useState(false)
+export const CardUI = ({ id, user,avatar,followed,tweets,followers }) => {
+
+    const [selection, setSelection] = useState(followed)
 
     const handleBtnClick = () => {
         setSelection(!selection)
 
     }
     return (
-      <CardBox>
-        
+      <CardBox key={id}>
+        <LogoWrapper>
+            <img src={logo} alt="logo"/>
+        </LogoWrapper>
+        <TopImage alt="decoration" src={top}/>
+
+        <AvatarWrapper>
+            <AvatarLine  alt='line' src={line} />
+            <AvatarCircle  alt='frame' src={ellipse} width={80} height={80} />
+           <Avatar src={avatar} alt={user} width={62} height={62}/>
+        </AvatarWrapper>
+        <TextWrapper>
+        <TextData>{tweets}</TextData>
+        <TextData>{followers}</TextData>
+        </TextWrapper>
         <ButtonUI text={selection? "Following" : "Follow"} onClick={handleBtnClick} selected={selection}/>
       </CardBox>
     );
