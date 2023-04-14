@@ -11,6 +11,7 @@ export const ButtonMain = styled.button`
  
   border: none;
   border-radius: ${p => p.theme.radii.btn};
+  box-shadow: ${p => p.theme.colors.btnBoxShadow};
   background-color: ${p => p.selected? p.theme.colors.accentGreen : p.theme.colors.mainLight };
   transition: ${p => p.theme.transitions.main};
 
