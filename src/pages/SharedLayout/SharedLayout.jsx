@@ -6,6 +6,7 @@ import ScrollToTop from 'react-scroll-up';
 import { ScrollUpIndicator } from './SharedLayout.styled';
 import sprite from '../../images/icons_sprite.svg';
 
+
 const SharedLayout = () => {
     return (
       <>

@@ -11,8 +11,8 @@ export const App = () => {
     <Routes>
        <Route path="/" element={<SharedLayout />}>
         <Route index element={<Homepage />} />
-        <Route path="/tweets" element={<Tweets />} />
-        <Route path="*" element={<Homepage />} />
+        <Route path="tweets" element={<Tweets />} />
+        {/* <Route path="*" element={<Homepage />} /> */}
       </Route>
     </Routes>
   );
