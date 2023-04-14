@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/tech-test-hw/static/css/main.3cc8ee18.css",
-    "main.js": "/tech-test-hw/static/js/main.3e993f5d.js",
-    "static/js/544.643b484a.chunk.js": "/tech-test-hw/static/js/544.643b484a.chunk.js",
+    "main.css": "/tech-test-hw/static/css/main.04038b06.css",
+    "main.js": "/tech-test-hw/static/js/main.f89edf80.js",
+    "static/js/979.b95917b0.chunk.js": "/tech-test-hw/static/js/979.b95917b0.chunk.js",
     "static/js/997.b6fdcfbd.chunk.js": "/tech-test-hw/static/js/997.b6fdcfbd.chunk.js",
+    "static/js/279.0dbcb495.chunk.js": "/tech-test-hw/static/js/279.0dbcb495.chunk.js",
     "static/media/like-min.png": "/tech-test-hw/static/media/like-min.d40409321b4d033cb112.png",
     "static/media/message-min.png": "/tech-test-hw/static/media/message-min.f7d7f664d080686c6a55.png",
     "static/media/icons_sprite.svg": "/tech-test-hw/static/media/icons_sprite.d6cf8fc288b2d09c546f0a87ed807796.svg",
     "index.html": "/tech-test-hw/index.html",
-    "main.3cc8ee18.css.map": "/tech-test-hw/static/css/main.3cc8ee18.css.map",
-    "main.3e993f5d.js.map": "/tech-test-hw/static/js/main.3e993f5d.js.map",
-    "544.643b484a.chunk.js.map": "/tech-test-hw/static/js/544.643b484a.chunk.js.map",
-    "997.b6fdcfbd.chunk.js.map": "/tech-test-hw/static/js/997.b6fdcfbd.chunk.js.map"
+    "main.04038b06.css.map": "/tech-test-hw/static/css/main.04038b06.css.map",
+    "main.f89edf80.js.map": "/tech-test-hw/static/js/main.f89edf80.js.map",
+    "979.b95917b0.chunk.js.map": "/tech-test-hw/static/js/979.b95917b0.chunk.js.map",
+    "997.b6fdcfbd.chunk.js.map": "/tech-test-hw/static/js/997.b6fdcfbd.chunk.js.map",
+    "279.0dbcb495.chunk.js.map": "/tech-test-hw/static/js/279.0dbcb495.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc8ee18.css",
-    "static/js/main.3e993f5d.js"
+    "static/css/main.04038b06.css",
+    "static/js/main.f89edf80.js"
   ]
 }
