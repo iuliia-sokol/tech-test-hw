@@ -5,7 +5,7 @@ export const ButtonMain = styled.button`
   justify-content: center;
   align-items: center;
   padding: 14px;
-
+  z-index:5;
   width: 196px;
   height: 50px;
  
@@ -17,7 +17,7 @@ export const ButtonMain = styled.button`
 
   &:hover, &:focus {
   transform: ${p => p.role === 'load' ? 'scale(1.1)' : 'unset'};
-  background-color: ${p => p.selected? p.theme.colors.mainLight : p.theme.colors.accentGreen };
+ 
 }
   
 `;

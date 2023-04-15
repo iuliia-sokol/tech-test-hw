@@ -52,11 +52,11 @@ const Homepage = () => {
                     </HeroTitle>
                 </HeroWrapper>
                 <RatingBox>
-                <RatingBlockTitle>Most popular tweeters</RatingBlockTitle>
+                <RatingBlockTitle>Top 3 popular users</RatingBlockTitle>
                 <RatingBlocksWrapper>
                 {usersByFollowers.length>0 && usersByFollowers.map(({id, user, avatar,followers,tweets, followed}) => <CardUI key={id} id={id} tweets={tweets} followers={followers} followed={followed} user={user} avatar={avatar} role='followers' />)}
                 </RatingBlocksWrapper>
-                <RatingBlockTitle>Most active tweeters</RatingBlockTitle>
+                <RatingBlockTitle>Top 3 active users</RatingBlockTitle>
                 <RatingBlocksWrapper>
                 {usersByTweets.length>0 && usersByTweets.map(({id, user, avatar,followers,tweets, followed}) => <CardUI key={id} id={id} tweets={tweets} followers={followers} followed={followed} user={user} avatar={avatar} role='tweets' />)}
                 </RatingBlocksWrapper>
