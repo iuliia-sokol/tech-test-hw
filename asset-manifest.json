@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/tech-test-hw/static/css/main.04038b06.css",
-    "main.js": "/tech-test-hw/static/js/main.4d60310a.js",
-    "static/js/544.643b484a.chunk.js": "/tech-test-hw/static/js/544.643b484a.chunk.js",
-    "static/js/45.582066a6.chunk.js": "/tech-test-hw/static/js/45.582066a6.chunk.js",
-    "static/js/817.dd8f3684.chunk.js": "/tech-test-hw/static/js/817.dd8f3684.chunk.js",
+    "main.css": "/tech-test-hw/static/css/main.f0009927.css",
+    "main.js": "/tech-test-hw/static/js/main.22732251.js",
+    "static/js/298.3db40b48.chunk.js": "/tech-test-hw/static/js/298.3db40b48.chunk.js",
+    "static/js/270.45023f13.chunk.js": "/tech-test-hw/static/js/270.45023f13.chunk.js",
+    "static/js/817.0c68c478.chunk.js": "/tech-test-hw/static/js/817.0c68c478.chunk.js",
     "static/media/like-min.png": "/tech-test-hw/static/media/like-min.d40409321b4d033cb112.png",
     "static/media/message-min.png": "/tech-test-hw/static/media/message-min.f7d7f664d080686c6a55.png",
+    "static/media/top-gradient-min.png": "/tech-test-hw/static/media/top-gradient-min.05179fe73cb1b7e0c54a.png",
+    "static/media/top3x-min.png": "/tech-test-hw/static/media/top3x-min.a9eb1a4bfbb6b9cb8ffd.png",
+    "static/media/top2x-min.png": "/tech-test-hw/static/media/top2x-min.3659c4c9186d8cc1533b.png",
     "static/media/icons_sprite.svg": "/tech-test-hw/static/media/icons_sprite.d6cf8fc288b2d09c546f0a87ed807796.svg",
     "index.html": "/tech-test-hw/index.html",
-    "main.04038b06.css.map": "/tech-test-hw/static/css/main.04038b06.css.map",
-    "main.4d60310a.js.map": "/tech-test-hw/static/js/main.4d60310a.js.map",
-    "544.643b484a.chunk.js.map": "/tech-test-hw/static/js/544.643b484a.chunk.js.map",
-    "45.582066a6.chunk.js.map": "/tech-test-hw/static/js/45.582066a6.chunk.js.map",
-    "817.dd8f3684.chunk.js.map": "/tech-test-hw/static/js/817.dd8f3684.chunk.js.map"
+    "main.f0009927.css.map": "/tech-test-hw/static/css/main.f0009927.css.map",
+    "main.22732251.js.map": "/tech-test-hw/static/js/main.22732251.js.map",
+    "298.3db40b48.chunk.js.map": "/tech-test-hw/static/js/298.3db40b48.chunk.js.map",
+    "270.45023f13.chunk.js.map": "/tech-test-hw/static/js/270.45023f13.chunk.js.map",
+    "817.0c68c478.chunk.js.map": "/tech-test-hw/static/js/817.0c68c478.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04038b06.css",
-    "static/js/main.4d60310a.js"
+    "static/css/main.f0009927.css",
+    "static/js/main.22732251.js"
   ]
 }
