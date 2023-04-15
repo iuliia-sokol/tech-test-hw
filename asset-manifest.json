@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/tech-test-hw/static/css/main.f0009927.css",
-    "main.js": "/tech-test-hw/static/js/main.22732251.js",
-    "static/js/298.3db40b48.chunk.js": "/tech-test-hw/static/js/298.3db40b48.chunk.js",
-    "static/js/270.45023f13.chunk.js": "/tech-test-hw/static/js/270.45023f13.chunk.js",
+    "main.css": "/tech-test-hw/static/css/main.0a45e2fa.css",
+    "main.js": "/tech-test-hw/static/js/main.07f06fb2.js",
+    "static/js/298.1c1db559.chunk.js": "/tech-test-hw/static/js/298.1c1db559.chunk.js",
+    "static/js/668.859e930d.chunk.js": "/tech-test-hw/static/js/668.859e930d.chunk.js",
     "static/js/817.0c68c478.chunk.js": "/tech-test-hw/static/js/817.0c68c478.chunk.js",
+    "static/js/382.771925a6.chunk.js": "/tech-test-hw/static/js/382.771925a6.chunk.js",
+    "static/media/heart-min.png": "/tech-test-hw/static/media/heart-min.cebedd504445e0889b2c.png",
     "static/media/like-min.png": "/tech-test-hw/static/media/like-min.d40409321b4d033cb112.png",
+    "static/media/award-min.png": "/tech-test-hw/static/media/award-min.78118a184cbb9d36a863.png",
     "static/media/message-min.png": "/tech-test-hw/static/media/message-min.f7d7f664d080686c6a55.png",
     "static/media/top-gradient-min.png": "/tech-test-hw/static/media/top-gradient-min.05179fe73cb1b7e0c54a.png",
+    "static/media/fire-min.png": "/tech-test-hw/static/media/fire-min.783e02ac4c62f3eb5781.png",
+    "static/media/WhiteLotus.otf": "/tech-test-hw/static/media/WhiteLotus.03ce4d5a9dace1a57599.otf",
     "static/media/top3x-min.png": "/tech-test-hw/static/media/top3x-min.a9eb1a4bfbb6b9cb8ffd.png",
     "static/media/top2x-min.png": "/tech-test-hw/static/media/top2x-min.3659c4c9186d8cc1533b.png",
     "static/media/icons_sprite.svg": "/tech-test-hw/static/media/icons_sprite.d6cf8fc288b2d09c546f0a87ed807796.svg",
     "index.html": "/tech-test-hw/index.html",
-    "main.f0009927.css.map": "/tech-test-hw/static/css/main.f0009927.css.map",
-    "main.22732251.js.map": "/tech-test-hw/static/js/main.22732251.js.map",
-    "298.3db40b48.chunk.js.map": "/tech-test-hw/static/js/298.3db40b48.chunk.js.map",
-    "270.45023f13.chunk.js.map": "/tech-test-hw/static/js/270.45023f13.chunk.js.map",
-    "817.0c68c478.chunk.js.map": "/tech-test-hw/static/js/817.0c68c478.chunk.js.map"
+    "main.0a45e2fa.css.map": "/tech-test-hw/static/css/main.0a45e2fa.css.map",
+    "main.07f06fb2.js.map": "/tech-test-hw/static/js/main.07f06fb2.js.map",
+    "298.1c1db559.chunk.js.map": "/tech-test-hw/static/js/298.1c1db559.chunk.js.map",
+    "668.859e930d.chunk.js.map": "/tech-test-hw/static/js/668.859e930d.chunk.js.map",
+    "817.0c68c478.chunk.js.map": "/tech-test-hw/static/js/817.0c68c478.chunk.js.map",
+    "382.771925a6.chunk.js.map": "/tech-test-hw/static/js/382.771925a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0009927.css",
-    "static/js/main.22732251.js"
+    "static/css/main.0a45e2fa.css",
+    "static/js/main.07f06fb2.js"
   ]
 }
