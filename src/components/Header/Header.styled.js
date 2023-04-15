@@ -40,6 +40,17 @@ font-weight:${p => p.theme.fontWeights[1]};
 line-height: ${p => p.theme.lineHeights.main};
 transition: ${p => p.theme.transitions.main};
 text-transform: uppercase;
+`
 
+export const Title = styled.h2`
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+font-family: ${p => p.theme.fonts.signature};
+text-align:center;
+color: ${p => p.theme.colors.mainLight};
+font-size: ${p => p.theme.fontSizes.xl};
+font-weight:${p => p.theme.fontWeights[0]};
+line-height: ${p => p.theme.lineHeights.main};
 
 `

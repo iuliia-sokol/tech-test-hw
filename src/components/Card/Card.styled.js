@@ -35,15 +35,16 @@ justify-content:center;
 `
 
 export const TopImage = styled.img`
-width:308px;
+width:${p => p.role === 'tweets'|| p.role === 'followers'? 'auto': '308px'};
 height:168px;
 `
 
 export const TextWrapper= styled.div`
+width:100%;
 flex-direction:column;
 align-items:center;
 justify-content:center;
-
+position: relative;
 row-gap:16px;
 margin-bottom:26px;
 `
@@ -85,4 +86,17 @@ z-index:20;
 export const AvatarLine = styled.img`
 position:absolute;
 z-index:0;
+`
+
+export const AwardWrapper = styled.div`
+display:${p => p.role === 'tweets'|| p.role === 'followers'? 'flex': 'none'};
+position:absolute;
+left:${p => p.role === 'tweets'?'10%': '-5%'};
+top:${p => p.role === 'tweets'?'-15%': 'unset'};
+bottom: ${p => p.role === 'tweets'?'unset': '-5%'};
+
+
+& img {
+    width:42px;
+}
 `

@@ -1,6 +1,6 @@
 
 import { Container } from "components/Container/Container"
-import { HeaderContentWrapper, HeaderNavLink, HeaderWrapper, Line, LinkItem, LinksWrapper } from "./Header.styled"
+import { HeaderContentWrapper, HeaderNavLink, HeaderWrapper, Line, LinkItem, LinksWrapper, Title } from "./Header.styled"
 
 import line from '../../images/line-min.png';
 
@@ -10,16 +10,15 @@ export const Header =()=>{
     
       <Container>
       <HeaderContentWrapper>
+      <Title>TweeTest</Title>
         <LinksWrapper>
-
         <LinkItem>
         <HeaderNavLink to="/">Home</HeaderNavLink>
         </LinkItem>
-
+        
         <LinkItem>
         <HeaderNavLink to="/tweets">Tweets</HeaderNavLink>
         </LinkItem>
-
         </LinksWrapper>
       </HeaderContentWrapper>
     </Container>

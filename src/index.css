@@ -1,11 +1,17 @@
 @import-normalize; /* bring in normalize.css styles */
 
+@font-face {
+  font-family: 'Lotus';
+  src: local('Lotus'), url('./fonts/WhiteLotus.otf') format('truetype');
+}
+
 body {
   position: relative;
   background-color: #766A92;
   background-image: url(./images/top-gradient-min.png);
   background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;

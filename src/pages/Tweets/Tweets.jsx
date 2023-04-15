@@ -9,7 +9,6 @@ import { ButtonUI } from "components/Button/Button";
 import { GoBackBtnUI } from "components/GoBackButton/GoBackButton";
 
 const Tweets = () => {
-
     const [isLoading, setIsLoading] = useState(false)
     const [showLoadMoreBtn, setShowLoadMoreBtn] = useState(false)
     const [users, setUsers] = useState([])

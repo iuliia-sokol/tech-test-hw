@@ -16,10 +16,13 @@ export const theme = {
     },
     fonts: {
         main: 'Poppins, sans-serif',
+        signature: 'Lotus',
     },
     fontSizes: {
         m: '18px',
         l: '20px',
+        xl:'36px',
+        xxl:'92px',
     },
     fontWeights: [500, 600],
     lineHeights: {
