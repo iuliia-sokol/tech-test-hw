@@ -1,22 +1,28 @@
-import { NavLink } from 'react-router-dom';
+
 import { Container } from "components/Container/Container"
-import { HeaderContentWrapper, HeaderWrapper, LinkItem, LinksWrapper } from "./Header.styled"
+import { HeaderContentWrapper, HeaderNavLink, HeaderWrapper, Line, LinkItem, LinksWrapper } from "./Header.styled"
+
+import line from '../../images/line-min.png';
+
 
 export const Header =()=>{
     return  (<HeaderWrapper>
+    
       <Container>
       <HeaderContentWrapper>
         <LinksWrapper>
+
         <LinkItem>
-        <NavLink to="/">Home</NavLink>
+        <HeaderNavLink to="/">Home</HeaderNavLink>
         </LinkItem>
 
         <LinkItem>
-        <NavLink to="/tweets">Tweets</NavLink>
+        <HeaderNavLink to="/tweets">Tweets</HeaderNavLink>
         </LinkItem>
 
         </LinksWrapper>
       </HeaderContentWrapper>
     </Container>
+    <Line  alt='line' src={line} height={8}/>
   </HeaderWrapper>)
 }

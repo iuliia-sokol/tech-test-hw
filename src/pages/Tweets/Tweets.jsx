@@ -43,7 +43,7 @@ const Tweets = () => {
           <Container>
           {isLoading && <Loader/>}
           <GoBackBtnWrapper>
-          <GoBackBtnUI/>
+          <GoBackBtnUI />
           </GoBackBtnWrapper>
           <UsersList>
           {users.length>0 && users.map(({id, user, avatar,followers,tweets, followed}) => <CardUI key={id} id={id} tweets={tweets} followers={followers} followed={followed} user={user} avatar={avatar} />)}

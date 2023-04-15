@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WrapperContainer = styled.div`
   width: 100%;
-  padding: 32px 16px;
+  padding: 16px 16px 32px 16px;
   margin: 0 auto;
   box-sizing: border-box;
   overflow: visible;

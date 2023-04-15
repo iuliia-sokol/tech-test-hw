@@ -1,10 +1,10 @@
 import { GoBackBtn, GoBackBtnWrapper, Hint } from "./GoBackButton.styled"
 import sprite from '../../images/icons_sprite.svg';
 
-export const GoBackBtnUI = ({onClick}) =>{
+export const GoBackBtnUI = () =>{
     return(
     <GoBackBtnWrapper>
-    <GoBackBtn type='button' onClick={onClick}>
+    <GoBackBtn to='/'>
         <svg>
         <use href={sprite + `#up-arrow`} />
         </svg>     

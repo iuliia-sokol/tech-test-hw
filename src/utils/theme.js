@@ -24,7 +24,6 @@ export const theme = {
     fontWeights: [500, 600],
     lineHeights: {
       main: '1.2',
-      content: '1.25',
     },
     radii: {
       circle: '50%',

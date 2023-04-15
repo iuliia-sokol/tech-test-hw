@@ -11,7 +11,8 @@ justify-items:center;
 export const LoadMoreBtnWrapper = styled.div`
 display:flex;
 justify-content:center;
-margin-top:26px;
+margin-top:32px;
+margin-bottom:32px;
 `
 
 export const GoBackBtnWrapper = styled.div`
