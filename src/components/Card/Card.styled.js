@@ -53,6 +53,7 @@ text-align:center;
 color: ${p => p.theme.colors.mainLight};
 font-family: ${p => p.theme.fonts.main};
 font-size: ${p => p.theme.fontSizes.l};
+font-weight:${p => p.theme.fontWeights[0]};
 text-transform:uppercase;
 
 &:not(:last-of-type){

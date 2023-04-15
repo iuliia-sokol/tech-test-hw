@@ -15,8 +15,11 @@ export const ButtonMain = styled.button`
   background-color: ${p => p.selected? p.theme.colors.accentGreen : p.theme.colors.mainLight };
   transition: ${p => p.theme.transitions.main};
 
-  // Hover
+  &:hover, &:focus {
+  transform: ${p => p.role === 'load' ? 'scale(1.1)' : 'unset'};
   background-color: ${p => p.selected? p.theme.colors.mainLight : p.theme.colors.accentGreen };
+}
+  
 `;
 
 export const ButtonText = styled.span`
@@ -26,6 +29,5 @@ export const ButtonText = styled.span`
    line-height: ${p => p.theme.lineHeights.main};
    color: ${p => p.theme.colors.mainDark};
    text-align: center;
-
-  text-transform: uppercase;
+   text-transform: uppercase;
 `;
