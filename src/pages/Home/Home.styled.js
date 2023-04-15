@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const UsersList = styled.ul`
-display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
-row-gap:16px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+row-gap:26px;
+align-items: center;
+justify-items:center;
 `
 
 export const LoadMoreBtnWrapper = styled.div`
