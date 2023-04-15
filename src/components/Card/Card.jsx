@@ -41,7 +41,7 @@ export const CardUI = ({ id, user,avatar,followed,tweets,followers }) => {
         </AvatarWrapper>
         <TextWrapper>
         <TextData>{tweets.length} tweets</TextData>
-        <TextData>{followersCount} followers</TextData>
+        <TextData>{followersCount.toLocaleString('en-US')} followers</TextData>
         </TextWrapper>
         <ButtonUI text={selection? "Following" : "Follow"} onClick={handleBtnClick} selected={selection}/>
       </CardBox>
