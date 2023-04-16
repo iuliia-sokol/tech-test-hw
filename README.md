@@ -22,9 +22,9 @@ That's how it works:
 
 ## Tech Stack
 
-**Client:** React + extra libs
+**Front:** React + extra libs
 
-**Server:** https://mockapi.io/
+**Back:** https://mockapi.io/
 
 
 ## Run Locally
