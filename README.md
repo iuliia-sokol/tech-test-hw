@@ -10,7 +10,7 @@ Due to the app was developed as a technical test within a few days, it's functio
 
 ## Demo
 
-Insert gif or link to demo
+That's how it works:
 
 ![How it works](demo.gif)
 ## Features
