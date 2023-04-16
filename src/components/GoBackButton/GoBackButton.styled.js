@@ -18,12 +18,12 @@ background-color:transparent;
 border:none;
 margin-bottom:26px;
 
+
 & svg {
     width: 50px;
     height:50px;
     transform:rotate(270deg);
 }
-
 `
 
 export const Hint = styled.div`

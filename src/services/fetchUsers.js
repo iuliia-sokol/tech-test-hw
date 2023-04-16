@@ -2,18 +2,16 @@ import axios from "axios";
 
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL
 
-
-
-export const fetchAllUsers = async (page,per_page) => {
+export const fetchAllUsers = async (page,per_page,filter) => {
     try {
         if (page && per_page) {
         return await axios
-          .get(`users/?page=${page}&limit=${per_page}`)
-          .then(({ data }) => {
+          .get(`users/?page=${page}&limit=${per_page}&followed=${filter}`)
+          .then(({ data }) => {        
             return data;
           });
       }
-      return await axios.get(`users`).then( ({ data }) => {
+      return await axios.get(`users/?followed=${filter}`).then( ({ data }) => {
            return data;
       });
     }

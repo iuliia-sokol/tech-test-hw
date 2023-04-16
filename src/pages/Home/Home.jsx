@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-
-import { Container } from "components/Container/Container";
-import { BgWrapper, HeroTitle, HeroWrapper, RatingBlockTitle, RatingBlocksWrapper, RatingBox } from "./Home.styled";
-
-import { Loader } from "components/Loader/Loader";
 import { fetchAllUsers } from "services/fetchUsers";
+import { Container } from "components/Container/Container";
+import { Loader } from "components/Loader/Loader";
 import { CardUI } from "components/Card/Card";
+import { BgWrapper, HeroTitle, HeroWrapper, RatingBlockTitle, RatingBlocksWrapper, RatingBox } from "./Home.styled";
 
 const Homepage = () => {
     const [isLoading, setIsLoading] = useState(false)
@@ -13,10 +11,10 @@ const Homepage = () => {
     const [usersByTweets, setUsersByTweets] = useState([])
 
     useEffect(() => {  
-        const getUsers = async ()=>{
+        const getUsers = async ({page,per_page,filter})=>{
             try{
                 setIsLoading(true)
-            return await fetchAllUsers().then((data) => {
+            return await fetchAllUsers(page,per_page,filter).then((data) => {
                 setUsersByFollowers(data.sort(function (a, b) {
                 var A = a.followers;
                 var B = b.followers;
@@ -34,13 +32,10 @@ const Homepage = () => {
                 setIsLoading(false)
             }
          }
-        getUsers()
-       
+        getUsers({page:'', per_page:'', filter:''})  
       }, []);
-      console.log(usersByFollowers);
-      console.log(usersByTweets);
 
-    return (
+ return (
         <main>
             <BgWrapper></BgWrapper>
             <Container>

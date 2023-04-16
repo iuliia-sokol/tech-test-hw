@@ -8,7 +8,6 @@ export const ButtonMain = styled.button`
   z-index:5;
   width: 196px;
   height: 50px;
- 
   border: none;
   border-radius: ${p => p.theme.radii.btn};
   box-shadow: ${p => p.theme.colors.btnBoxShadow};
